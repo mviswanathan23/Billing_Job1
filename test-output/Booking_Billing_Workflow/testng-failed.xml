@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Booking_Billing_Workflow]">
+  <test name="Container Linkage">
+    <classes>
+      <class name="com.gates.billing.BookingBillingWorkFlow"/>
+    </classes>
+  </test> <!-- Container Linkage -->
+  <test name="Container Linkage(failed)">
+    <classes>
+      <class name="com.gates.billing.BookingBillingWorkFlow">
+        <methods>
+          <include name="ContainerLinkage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.gates.billing.BookingBillingWorkFlow -->
+    </classes>
+  </test> <!-- Container Linkage(failed) -->
+</suite> <!-- Failed suite [Booking_Billing_Workflow] -->

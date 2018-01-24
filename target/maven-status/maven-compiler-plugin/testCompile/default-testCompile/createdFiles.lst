@@ -1,0 +1,8 @@
+com\gates\billing\BillOfLadingSetup.class
+com\gates\billing\BookingBillingWorkFlow.class
+com\gates\billing\BL_Payables.class
+com\gates\setup\utility.class
+com\gates\billing\SendBill_Document.class
+com\gates\billing\Login.class
+com\gates\setup\TestRunner.class
+com\gates\billing\BL_Charges.class
